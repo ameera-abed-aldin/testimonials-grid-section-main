@@ -133,9 +133,12 @@ p:first-child,
 }
 
 blockquote {
-  color: rgb(188, 187, 187);
+  color: rgb(217, 212, 212);
 }
-@media (min-width: 900px) {
+.test3 > blockquote,.test5 > blockquote{
+  color:black;
+}
+@media (min-width: 1000px) {
   main {
     min-height: 35.62rem;
     grid-template-columns: 1fr 1.5fr 1fr 1fr;
@@ -162,5 +165,34 @@ blockquote {
   }
   .test4 {
     grid-area: 2/2/3/4;
+  }
+}
+@media (min-width: 600px)and (max-width:1000px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    
+    gap: 2rem;
+  }
+  .testmonial {
+    gap: 0.8rem;
+  }
+  .descrpition {
+    font-size: 1.1rem;
+  }
+  .test1 {
+    grid-area: 1/1/2/3;
+  }
+  .test2 {
+    grid-area: 2/1/3/2;
+  }
+  .test5 {
+    grid-area: 4/1/5/3;
+  }
+  .test3 {
+    grid-area: 2/2/3/3;
+  }
+  .test4 {
+    grid-area: 3/1/4/3;
   }
 }
