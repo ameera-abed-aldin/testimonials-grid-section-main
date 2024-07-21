@@ -140,7 +140,7 @@ blockquote {
     min-height: 35.62rem;
     grid-template-columns: 1fr 1.5fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 9rem auto;
+    margin: 7rem auto;
   }
   .testmonial {
     gap: 0;
