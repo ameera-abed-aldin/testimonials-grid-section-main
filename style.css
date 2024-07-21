@@ -84,7 +84,7 @@ body {
 }
 main {
   width: 90%;
-  max-width: 75rem;
+  max-width: 70rem;
   margin: 2rem auto;
   display: grid;
   gap: 1.56rem;
@@ -140,7 +140,7 @@ blockquote {
     min-height: 35.62rem;
     grid-template-columns: 1fr 1.5fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 7rem auto;
+    margin: 6rem auto;
   }
   .testmonial {
     gap: 0;
